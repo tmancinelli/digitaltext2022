@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manuscript of Frankenstein: TEI Transcription</title>
+            <respStmt>
+               <resp>transcribed by</resp>
+               <name>Wout Dillen</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Antwerp</publisher>
+            <date>March 2018</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/"><p>CC-BY-SA
+                  4.0</p></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Transcription of a single page taken from the manuscripts of Mary
+               Shelley’s<title>Frankenstein</title></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="p21r" url="https://iiif.bodleian.ox.ac.uk/iiif/image/5359a811-63e4-49d7-8cc1-e6b4308a7969/full/full/0/default.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div n="v1-c5">
+            <pb facs="#p21r"/>
+            <head>
+               Chapter 7<hi rend="sup"><hi rend="u">th</hi></hi>
+            </head>
+            <p>
+               <hi rend="sup">It was on a dreary</hi> night of November<lb/>
+               that I beheld <del type="crossedOut" hand="#PBS" rend="blackink" resp="#WD"><add place="supralinear" hand="#PBS" rend="blackink" resp="#WD">the frame on whic</add></del> my man comple<del type="overwritten" hand="#PBS" rend="blackink" resp="#WD">at</del><add place="overwritten" hand="#PBS" rend="blackink" resp="#WD">te</add>ed<del type="overwritten" hand="#PBS" rend="blackink" resp="#WD">.</del><add place="overwritten" hand="#PBS" rend="blackink" resp="#WD">,</add> <del type="crossedOut" hand="#PBS" rend="blackink" resp="#WD">And</del><lb/>
+               with an anxiety that almost amount<lb rend="-it"/>
+               ed to agony I collected instruments of life<lb/>
+               around me <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">and endeavour to</del> <add place="supralinear" hand="#PBS" rend="blackink" resp="#WD">that I might</add> <del type="overwritten" hand="#PBS" rend="blackink" resp="#WD">e</del><add place="overwritten" hand="#PBS" rend="blackink" resp="#WD">i</add>nfuse a<lb/>
+               spark of being into the lifeless thin<del type="overwritten" hand="#MS" rend="blackink" resp="#WD">k</del><add place="overwritten" hand="#MS" rend="blackink" resp="#WD">g</add><lb/>
+               that lay at my feet. It was already<lb/>
+               one in the morning, <del type="crossedOut">the rain</del> pattered<lb/>
+               dismally against the window panes, &amp;<lb/>
+               my candle was nearly burnt out, when<lb/>
+               by the glimmer of the half extinguish<lb rend="-it"/>
+               ed light I saw the dull yellow eye of<lb/>
+               the creature open<del type="overwritten" hand="#PBS" rend="blackink" resp="#WD">.</del><add place="overwritten" hand="#PBS" rend="blackink" resp="#WD">—</add>It breathed hard,<lb/>
+               and a convulsive motion agitated<lb/>
+               its limbs.
+            </p>
+            <p>
+               <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">But how</del> How can I describe my<lb/>
+               emotion at this catastrophe; or how deli<lb rend="-it"/>
+               neate the wretch whom with such<lb/>
+               infinite pains and care I had endeavoured<lb/>
+               to form. His limbs were in proportion<lb/>
+               and I had selected his features <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">h</del> as<lb/>
+               <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">handsome</del> <del type="crossedOut" hand="#PBS" rend="blackink" resp="#WD"><add place="marginleft" hand="#MS" rend="blackink" resp="#WD">handsome</add></del> <add type="supralinear" hand="#PBS" rend="blackink" resp="#WD">beautiful</add>. <add place="supralinear" hand="#PBS" rend="blackink" resp="#WD"><del type="crossedOut" hand="#PBS" rend="blackink" resp="#WD">Handsome</del></add>; Great God! His<lb/>
+               <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">dun</del> <add place="marginleft" hand="#MS" rend="blackink" resp="#WD">yellow</add> skin scarcely covered the work of<lb/>
+               muscles and arteries beneath; his hair<lb/>
+               was <add place="marginleft" hand="#MS" rend="blackink" resp="#WD">of a lustrous black &amp;</add> flowing and his teeth of a pearly white<lb rend="-it"/>
+               ness but these luxurianc<add place="intralinear" hand="#MS" rend="blackink" resp="#WD">i</add>es only <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">fomed</del><lb/>
+               formed a more horrid contrast with
+               his watry eyes that seemed almost of
+               the same colour as the dun white
+               sockets in which they were set,
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
