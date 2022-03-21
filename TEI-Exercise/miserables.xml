@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="miserables.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Les Misérables by Victor Hugo</title>
+            <respStmt>
+               <name>EL</name>
+               <resp>OCR Correction</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Academic use only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here</p>
+            <!-- FANTINE.
+
+            BOOK I.
+            A JUST MAN.
+            
+            CHAPTER I.
+            M. MYRIEL.
+            
+            In 1815 M. Charles Francois Bienvenu Myriel
+            was Bishop of D. He was a man of about
+            seventy-five years of age, and had held the see of
+            D since 1806. Although the following details
+            in no way affect our narrative, it may not be useless
+            to quote the rumors that were current about him
+            at the moment when he came to the diocese, for
+            what is said of men, whether it be true or false,
+            often occupies as much space in their life, and especially
+            in their destiny, as what they do. M. Myriel
+            was the son of a councillor of the Aix Parliament.
+            It was said that his father, who intended that he
+            should be his successor, married him at the age of
+            eighteen or twenty, according to a not uncommon
+            custom in parliamentary families. Charles Myriel,
+            in spite of this marriage (so people said), had been
+            the cause of much tattle. He was well built, though
+            of short stature, elegant, graceful, and witty ; and
+            1
+            
+            2 FANTINE.
+            the earlier part of his life was devoted to the world
+            and to gallantry. The Revolution came, events hurried
+            on, and the parliamentary families, decimated
+            and hunted down, became dispersed. M. Charles
+            Myriel emigrated to Italy in the early part of the
+            Revolution, and his wife, who had been long suffering
+            from a chest complaint, died there, leaving no
+            children. What next took place in M. Myriel's destiny?
+            Did the overthrow of the old French society,
+            the fall of his own family, and the tragic spectacles
+            of '93, more frightful perhaps to the emigres who saw
+            them from a distance with the magnifying power of
+            terror, cause ideas of renunciation and solitude to
+            germinate in him ? Was he, in the midst of one of
+            the distractions and affections which occupied his
+            life, suddenly assailed by one of those mysterious
+            and terrible blows which often prostrate, by striking
+            at his heart, a man whom public catastrophes could
+            not overthrow by attacking him in his existence and
+            his fortune? No one could have answered these
+            questions ; all that was known was that when he
+            returned from Italy he was a priest.
+            
+            In 1804 M. Myriel was Curé of B (Brignolles).
+            He was already aged, and lived in great
+            retirement. Towards the period of the coronation
+            a small matter connected width his curacy, no one
+            remembers what, took him to Paris. Among other
+            powerful persons he applied to Cardinal Fesch on
+            behalf of his parishioners. One day, when the Emperor
+            was paying a visit to his uncle, the worthy
+            cure, who was waiting in the ante-room, saw his Majesty
+            pass. Napoleon, noticing this old man regard
+            
+            M. MYRIEL. 3
+            him with some degree of curiosity, turned and aslced
+            sharply, —
+            " Who is this good man who is staring at me ?"
+            " Sire," M. Myriel said, " you are looking at a
+            good man and I at a great man. We may both
+            profit by it."
+            
+            The Emperor, on the same evening, asked the
+            Cardinal the cure's name, and some time after M.
+            Myriel, to his great surprise, learned that he was
+            nominated Bishop of D . What truth, by the
+            way, was there in the stories about M. Myriel's
+            early life ? No one knew, for few persons had been
+            acquainted with his family before the Revolution.
+            M. Myriel was fated to undergo the lot of every new
+            comer to a little town, where there are many mouths
+            that speak, and but few heads that think. He was
+            obliged to undergo it, though he was bishop, and
+            because he was bishop. But, after all, the stories
+            in which his name was mingled were only stories,
+            rumors, words, remarks, less than words, mere
+            palabres, to use a term borrowed from the energetic
+            language of the South. Whatever they might
+            be, after ten years of episcopacy and residence at
+            D , all this gossip, which at the outset affords
+            matter of conversation for little towns and little
+            people, had fallen into deep oblivion. No one would
+            have dared to speak of it, no one have dared to
+            remember it.
+            
+            M. Myriel had arrived at D , accompanied by
+            an old maid. Mlle. Baptistine, who was his sister, and
+            ten years younger than himself. Their only servant
+            was a female of the same age as Mademoiselle, of the
+            
+            4 FANTINE.
+            name of Madame Magloire, who, after having been
+            the servant of M. le Curé, now assumed the double
+            title of waiting-woman to Mademoiselle, and housekeeper
+            to Monseigneur. Mlle. Baptistine was a tall,
+            pale, slim, gentle person ; she realized the ideal of
+            what the word " respectable " expresses, for it seems
+            necessary for a woman to be a mother in order to be
+            venerable. She had never been pretty, but her whole
+            life, which had been but a succession of pious works,
+            had eventually cast over her a species of whiteness
+            and brightness, and in grooving older she had acquired
+            what may be called the beauty of goodness.
+            AVhat had been thinness in her youth had become in
+            her maturity transparency, and through this transparency
+            the angel could be seen. She seemed to
+            be a shadow, there was hardly enough body for a
+            sex to exist ; she was a little quantity of matter containing
+            a light — an excuse for a soul to remain upon
+            the earth. Madame Magloire was a fair, plump,
+            busy little body, always short of breath, — in the
+            first place, through her activity, and, secondly, in
+            consequence of an asthma.
+            
+            On his arrival M. Myriel was installed in his episcopal
+            palace with all the honors allotted by the imperial
+            decrees which classify the Bishop immediately
+            after a Major-General. The Mayor and the President
+            paid him the first visit, and he on his side paid the
+            first visit to the General and the Prefect. When the
+            installation was ended the town waited to see its
+            bishop at work. -->
+      </body>
+  </text>
+</TEI>
