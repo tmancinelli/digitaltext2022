@@ -1,0 +1,17 @@
+
+<!ENTITY % Contenuti "titolo?, autore?, para+, firma*">
+
+<!ELEMENT libro (introduzione*,corpo+, epilogo*, indice*)>
+<!ELEMENT introduzione (%Contenuti;)>
+<!ELEMENT corpo (titolo*,(poesia|prosa)+)>
+<!ELEMENT epilogo (%Contenuti;)>
+<!ELEMENT indice ANY>
+<!ELEMENT titolo (#PCDATA)>
+<!ELEMENT autore (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT poesia (titolo?,strofa+)>
+<!ELEMENT strofa (verso+)>
+<!ELEMENT verso (#PCDATA)>
+<!ATTLIST verso metro CDATA #REQUIRED>
+<!ELEMENT prosa (#PCDATA)>
+<!ELEMENT firma (#PCDATA)>
