@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM 'poesia_ita.dtd'>
+<libro>
+    <introduzione>
+        <para> Por su libro Vida de Don Quijote y Sancho.</para>
+    </introduzione>
+    <corpo>
+        <poesia>
+            <titolo>A DON MIGUEL DE UNAMUNO</titolo>
+            <strofa>
+                <verso>Este donquijotesco</verso>
+                <verso>don Miguel de Unamuno, fuerte vasco,</verso>
+                <verso>lleva el arnés grotesco</verso>
+                <verso>y el irrisorio casco</verso>
+                <verso>del buen manchego. Don Miguel camina,</verso>
+                <verso>jinete de quimérica montura,</verso>
+                <verso>metiendo espuela de oro a su locura,</verso>
+                <verso>sin miedo de la lengua que malsina.</verso>
+            </strofa>
+        </poesia>
+    </corpo>
+    <epilogo>
+        <para/>
+        <firma>Antonio Machado</firma>
+    </epilogo>
+</libro>
