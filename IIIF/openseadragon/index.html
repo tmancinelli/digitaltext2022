@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Bologna 2020 - openseadragon example 1</title>
+  </head>
+  <body>
+    <div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://www.e-codices.unifr.ch/loris/gf/gf-BurgOf/gf-BurgOf_019r.jp2",
+              "height": 8176,
+              "width": 6128,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+
+<div id="my-mirador"/>
+
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "manifest.json" : {
+      "provider": "IIIF Tutorial University of Bologna"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "manifest.json",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+</script>
