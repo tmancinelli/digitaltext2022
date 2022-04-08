@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem by Walt Whitman</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Esercizion in classe - poesia scelta da un fonte online, nessuna pubblicazione cartacea presa in considerazione</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From <ptr target="https://www.poetryfoundation.org/poems/45474/o-captain-my-captain"/> </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body n="anthology">
+         <div type="poem">
+            <head>O Captain! my Captain!</head>
+            <lg type="stanza">
+               <l>O Captain! my Captain! our fearful trip is done,</l>
+                  <l>The ship has weather’d every rack, the prize we sought is won,</l>
+                  <l>The port is near, the bells I hear, the people all exulting,</l>
+                  <l>While follow eyes the steady keel, the vessel grim and daring;</l>
+                  <l>But O heart! heart! heart!</l>
+                  <l>O the bleeding drops of red,</l>
+                  <l>Where on the deck my Captain lies,</l>
+                  <l>Fallen cold and dead.</l>
+            </lg>
+
+         </div>
+      </body>
+   </text>
+</TEI>
